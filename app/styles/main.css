@@ -1,0 +1,33 @@
+.wrapper {
+	margin: 10px;
+}
+.ace {
+	height: 300px;
+	font-size: 14px;
+}
+#state {
+	padding: 5px;
+	height: 200px;
+	background: #000;			
+	font-family: monospace,sans-serif;
+	color: #fff;
+	overflow: auto;
+}
+#title {
+	font-family: 'Ubuntu';
+}
+.command{
+	padding: 0px 10px 15px 10px;
+}
+.command > button{
+	margin-right: 10px;
+}
+.right{
+	float: right;
+	padding-top: 10px;
+}
+.mepet{
+	padding-left: 20px !important;
+	text-transform: uppercase;
+	font-weight: 800;
+}

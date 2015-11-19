@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Chromobot</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/mdl.min.css">
+</head>
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row mepet">
+				<span class="mdl-layout-title"><strong>Chromobot</strong></span>
+				<div class="mdl-layout-spacer"></div>
+				<nav class="mdl-navigation">
+					<a id="rc" class="mdl-navigation__link" href="#">
+						<div id="rc" class="icon material-icons">touch_app</div>
+						<div class="mdl-tooltip" for="rc">Reconnect daemon</div>
+					</a>
+					<a id="log" class="mdl-navigation__link" href="#">
+						<div id="log" class="icon material-icons">archive</div>
+						<div class="mdl-tooltip" for="log">View log</div>
+					</a>
+				</nav>
+			</div>
+		</header>
+		<main class="mdl-layout__content">
+			<div class="page-content wrapper">
+				<pre id="script" class="ace">/* Johnny-five powered arduino programming. */</pre>
+					<div class="command">
+						<button id="run" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" disabled>Run </button>
+						<button id="kill" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" disabled>Kill</button>
+						<button id="clear" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" disabled>Clear</button>
+						<div class="right">
+							<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="logfile">
+								<input type="checkbox" id="logfile" class="mdl-checkbox__input">
+								<span class="mdl-checkbox__label">Save to log file</span>
+							</label>
+						</div>
+					</div>
+					<pre id="state"></pre>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="scripts/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="scripts/material.min.js"></script>
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/runner.js"></script>
+	<script src="scripts/websocket.js"></script>
+	</html>

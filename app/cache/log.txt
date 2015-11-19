@@ -1,0 +1,27 @@
+Thu Nov 19 2015 23:43:23 GMT+0700 (WIB)	|1447951403204 Device(s) /dev/ttyACM0  
+Thu Nov 19 2015 23:43:23 GMT+0700 (WIB)	|1447951403214 Connected /dev/ttyACM0  
+Thu Nov 19 2015 23:43:26 GMT+0700 (WIB)	|1447951406567 Repl Initialized  
+Thu Nov 19 2015 23:43:26 GMT+0700 (WIB)	|>> 
+Thu Nov 19 2015 23:43:33 GMT+0700 (WIB)	|Terminated
+-----------
+Thu Nov 19 2015 23:43:51 GMT+0700 (WIB)	|1447951431712 Device(s) /dev/ttyACM0  
+Thu Nov 19 2015 23:43:51 GMT+0700 (WIB)	|1447951431722 Connected /dev/ttyACM0  
+
+Thu Nov 19 2015 23:43:54 GMT+0700 (WIB)	|Terminated
+-----------
+Fri Nov 20 2015 00:34:37 GMT+0700 (WIB)	|1447954477709 Device(s) /dev/ttyACM0  
+Fri Nov 20 2015 00:34:37 GMT+0700 (WIB)	|1447954477719 Connected /dev/ttyACM0  
+Fri Nov 20 2015 00:34:41 GMT+0700 (WIB)	|1447954481064 Repl Initialized  
+Fri Nov 20 2015 00:34:41 GMT+0700 (WIB)	|>> 
+Fri Nov 20 2015 00:34:46 GMT+0700 (WIB)	|Terminated
+-----------
+Fri Nov 20 2015 00:37:02 GMT+0700 (WIB)	|1447954622529 Device(s) /dev/ttyACM0  
+Fri Nov 20 2015 00:37:02 GMT+0700 (WIB)	|1447954622541 Connected /dev/ttyACM0  
+Fri Nov 20 2015 00:37:06 GMT+0700 (WIB)	|1447954626008 Repl Initialized  
+Fri Nov 20 2015 00:37:06 GMT+0700 (WIB)	|>> Fri Nov 20 2015 00:37:07 GMT+0700 (WIB)	|Halo 1
+Fri Nov 20 2015 00:37:08 GMT+0700 (WIB)	|Halo 2
+Fri Nov 20 2015 00:37:09 GMT+0700 (WIB)	|Halo 3
+Fri Nov 20 2015 00:37:10 GMT+0700 (WIB)	|Halo 4
+
+Fri Nov 20 2015 00:37:10 GMT+0700 (WIB)	|Terminated
+-----------
