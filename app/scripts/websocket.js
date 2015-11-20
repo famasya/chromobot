@@ -1,8 +1,11 @@
 function start(url){
-	$('button').not("#kill").attr('disabled',false);
-	$("#state").text("");
+	var state = $('#state');
+	var run = $('#run');
+	var kill = $('#kill');
+	$('button').not('#kill').attr('disabled',false);
+	state.text('');
 	var ws = new WebSocket(url);
-	$("#run").click(function(){
+	run.click(function(){
 		var logfile = 'no';
 		if($('#logfile').is(':checked')){
 			logfile = 'yes';
@@ -13,9 +16,9 @@ function start(url){
 		};
 		ws.send(JSON.stringify(data));
 		$(this).attr('disabled',true)
-		$('#kill').attr('disabled',false)
+		kill.attr('disabled',false)
 	});
-	$("#kill").click(function(){
+	kill.click(function(){
 		var logfile = 'no';
 		if($('#logfile').is(':checked')){
 			logfile = 'yes';
@@ -25,15 +28,15 @@ function start(url){
 			'logfile':logfile
 		};
 		ws.send(JSON.stringify(data));
-		$('#run').attr('disabled',false)
+		run.attr('disabled',false)
 		$(this).attr('disabled',true)
 	});
 	ws.onclose = function(e){
-		$("#state").text("Daemon is not started");
+		state.text("Daemon is not started");
 		$('button').attr('disabled',true)
 	}
 	ws.onmessage = function(e){
-		$("#state").append(e.data);
+		state.append(e.data);
 	}
 }
 
